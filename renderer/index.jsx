@@ -1,7 +1,7 @@
 class App extends React.Component {
     render() {
         return (
-            <h1>hello react world!!!</h1>
+            <h1>hello electron+react world!</h1>
         );
     }
 }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "main/main.js",
   "scripts": {
-    "start": "gulp && electron .",
+    "start": "electron .",
     "test": "mocha"
   },
   "keywords": [
@@ -20,6 +20,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "electron-mocha": "^8.0.3",
+    "electron-reload": "^1.4.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "react": "^16.8.6",

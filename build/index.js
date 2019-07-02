@@ -32,7 +32,7 @@ function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return React.createElement("h1", null, "hello react world!!!");
+      return React.createElement("h1", null, "hello electron+react world!");
     }
   }]);
 

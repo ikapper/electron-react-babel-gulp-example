@@ -17,7 +17,7 @@ function transpileByBabel() {
 }
 
 function watch() {
-    gulp.watch(paths.babel.src, transpileByBabel);
+    return gulp.watch(paths.babel.src, transpileByBabel);
 }
 
 exports.babel = transpileByBabel;
