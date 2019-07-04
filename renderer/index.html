@@ -10,7 +10,13 @@
     <div id="app"></div>
 
     <!-- 変換後jsを読みこませるのでbuild/以下のjsを指定 -->
-    <script src="../build/index.js"></script>
+    <!-- <script src="../build/index.js"></script> -->
+    <script src="../dist/bundle.js"></script>
+
+    <!-- build:remove -->
+    <!-- Connect to server process -->
+    <script>electronconnect.client.create()</script>
+    <!-- end:build -->
 </body>
 
 </html>

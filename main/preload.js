@@ -9,6 +9,7 @@ process.once('loaded', () => {
     global.clearImmediate = _clearImmediate;
     global.React = React;
     global.ReactDom = ReactDom;
+    global.electronconnect = require('electron-connect');
 })
 
 console.log("preload.js was loaded.");
