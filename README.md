@@ -1,5 +1,5 @@
-# Electron+React+Babel+Gulp app
+# Electron+React+Babel+Gulp+Webpack app
 
-This repo is a note for setting up electron+react+babel+gulp and hot-reloadable environment.
+This repo is a note for setting up an electron+react+babel+gulp+webpack and hot-reloadable environment.
 
 Start to run `npm install && npm start`.
