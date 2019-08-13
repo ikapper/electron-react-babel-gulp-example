@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path');
 const client = require('electron-connect').client;
+const process = require("process");
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -18,7 +19,9 @@ function createWindow() {
     win.loadURL(`file://${__dirname}/../renderer/index.html`)
 
     // Open the DevTools.
-    win.webContents.openDevTools()
+    if (process.env.NODE_ENV === 'dev') {
+        win.webContents.openDevTools()
+    }
 
     // Emitted when the window is closed.
     win.on('closed', () => {

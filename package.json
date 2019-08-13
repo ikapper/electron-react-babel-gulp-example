@@ -4,8 +4,8 @@
   "description": "",
   "main": "main/main.js",
   "scripts": {
-    "start": "gulp run",
-    "test": "mocha"
+    "start": "NODE_ENV=dev gulp run",
+    "test": "NODE_ENV=test electron-mocha"
   },
   "keywords": [
     "electron",
@@ -26,10 +26,11 @@
     "gulp-babel": "^8.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "spectron": "^8.0.0",
     "webpack": "^4.35.2",
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
-    "electron": "^5.0.6"
+    "electron": "^6.0.2"
   }
 }
