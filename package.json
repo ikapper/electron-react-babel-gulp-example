@@ -31,6 +31,6 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
-    "electron": "^6.0.2"
+    "electron": "^7.2.4"
   }
 }
